@@ -1,0 +1,302 @@
+/*导航区域*/
+.navbar {
+   margin-bottom: 0;
+}
+.xy-header .navbar-default {
+    background-color: #fff; 
+    border-color: #fff; 
+}
+.xy-header .navbar {
+	border: none;
+   position: fixed;
+   right: 0;
+   left: 0;
+   top: 0;
+   z-index: 1030;
+}
+.xy-header .navbar-brand {
+	padding-top: 0;
+}
+
+.xy-header .navbar-brand img {
+	margin-top: 5px;
+}
+
+/*焦点图区域*/
+.xy-carouse {
+   margin-top: 50px;
+}
+.xy-carouse .carousel-indicators .active {
+   width: 0.3rem;
+}
+.xy-carouse .carousel-inner img {
+	height: 4.5rem;
+	position: absolute;
+	/* 干掉bootstrap里面自带的最大宽度的设置 */
+	max-width: none;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.xy-carouse .carousel-inner .item {
+	height: 4.5rem;
+}
+.xy-carouse .carousel-inner {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*县域模式*/
+.xy-moshi .title{
+	text-align: center;
+	margin: 0.3rem 0;
+	font-size: 0.38rem;
+}
+.xy-moshi .left .new {
+   padding-top: 0.26rem;
+	text-align: center;
+}
+.xy-moshi span {
+	height: 1.08rem;
+	display: inline-block;
+	line-height: 0.36rem;
+	font-size: 0.18rem;
+}
+/*介绍开始*/
+.xy-introduce {
+   margin: 0.26rem 0;
+   background-color: #fafafa;
+}
+.xy-introduce .sure span{
+	display: block;
+	font-size: 0.38rem;
+	padding: 0.18rem 0;
+	text-align: center;
+}
+.xy-introduce .way-tit {
+	height: 0.5rem;
+	background-color: #1fbaec;
+	text-align: center;
+	color: #fff;
+	line-height: 0.5rem;
+}
+.xy-introduce .mesg {
+   height: 1.033333rem;
+}
+.xy-introduce .mesg div {
+	line-height: 1.033333rem;
+	text-align: center;
+}
+
+.xy-introduce .way-img img{
+   width: 100%;
+}
+
+.xy-introduce .mesg p {
+	margin-bottom: 0;
+   color: #fff;
+   padding: 0.1rem;
+   margin-top: 0.07rem;
+   font-size: 0.16rem;
+}
+.xy-introduce .mesg span {
+   font-size: 0.18rem;
+}
+.xy-introduce .mesg:nth-child(1) p{
+   background-color: #58caef;
+   /*height: 0.96333rem;*/
+}
+.xy-introduce .mesg:nth-child(2) p{
+   background-color: #63a8eb;
+   /*height: 0.96333rem;*/
+}
+.xy-introduce .mesg:nth-child(3) p{
+   background-color: #f96768;
+   /*height: 0.96333rem;*/
+}
+.xy-introduce a:hover {
+   text-decoration: none;
+}
+
+/*优势*/
+.xy-advantage .title{
+   text-align: center;
+   margin-top: 0.3rem;
+   margin-bottom: 0.15rem;
+   font-size: 0.38rem;
+}
+.xy-advantage .subtitle{
+   text-align: center;
+   font-size: 0.22rem;
+}
+.xy-advantage .row div {
+   text-align: center;
+}
+.xy-advantage .col-md-4 p:nth-child(2) {
+   font-size: 0.17rem;
+   font-weight: 600;
+}
+.xy-advantage img {
+   border-radius: 0.35rem;
+}
+
+/*线下*/
+.xy-xianxia {
+   background-color: #fafafa;
+}
+.xy-xianxia .container {
+   text-align: center;
+   margin: 0 auto;
+   background-color: #fafafa;
+   padding-top: 0.3rem;
+   box-sizing: border-box;
+   font-size: 0;
+}
+.xy-xianxia .container img {
+   width: 100%;
+}
+.xy-xianxia .xianxia{
+   height: 3.2rem;
+   background-color: #1fbaec;
+}
+.xy-xianxia .title {
+   font-size: 0.38rem;
+   padding: 0.34rem;
+   color: #fff;
+   text-align: center;
+}
+.xy-xianxia .row div {
+   margin-bottom: 0.1rem;
+}
+.xy-xianxia .container p {
+   font-size: 0.22rem;
+   margin: 0.12rem;
+}
+
+/*智能省份*/
+.xy-zhineng .row{
+   margin: 0 auto;
+   text-align: center;
+}
+.xy-zhineng .title {
+   font-size: 0.38rem;
+   text-align: center;
+   margin-top: 0.56rem;
+}
+.xy-zhineng .subtitle {
+   font-size: 0.22rem;
+   text-align: center;
+}
+
+/*智慧云*/
+.xy-zhihuiyun {
+   text-align: center;
+}
+.xy-zhihuiyun p {
+   font-size: 0.38rem;
+   text-align: center;
+   margin: 0.26rem 0;
+}
+.xy-zhihuiyun .container-fluid{
+   font-size: 0;
+   background-color: #282d30;
+   text-align: center;
+}
+.xy-zhihuiyun img {
+   opacity: 1;
+}
+.xy-zhihuiyun img:hover {
+   opacity: 0.5;
+   cursor: pointer;
+}
+
+/*关于我们*/
+.xy-women {
+   margin-bottom: 1rem;
+}
+.xy-women .title {
+   font-size: 0.38rem;
+   text-align: center;
+   margin-top: 0.56rem;
+}
+.xy-women .subtitle {
+   font-size: 0.22rem;
+   text-align: center;
+   margin-bottom: 0.4rem;
+}
+.xy-women .row div {
+   text-align: center; 
+}
+.xy-women .row .icon:after {
+   content: "|";
+   width: 1px;
+   line-height: 0.42rem;
+   color: #fff;
+   background: #ddd;
+   float: right;
+   position: relative;
+   top: 30px;
+}
+.xy-women .we img{
+   width: 100%;
+}
+.xy-women .row div img {
+   width: 0.89rem;
+   height: 1.44rem;
+}
+.xy-women .about {
+   font-size: 0.38rem;
+}
+.xy-women .wanshan {
+   line-height: 0.34rem;
+   font-size: 0.18rem;
+}
+
+
+/*底部*/
+.xy-footer {
+   background-color: #282d30;
+   /*height: 3.10rem;*/
+   color: #8d8e8e;
+   font-size: 0.17rem;
+   padding-top: 0.70rem;
+}
+.xy-footer .col-md-3 {
+   text-align: center;
+}
+.xy-footer .col-md-3 img {
+   width: 1.2rem;
+   height: 1.2rem;
+}
+.xy-footer .bot span{
+   
+   display: inline-block;
+}
+.xy-footer .ewm {
+   display: inline-block;
+   margin-right: 0.2rem;
+   position: relative;
+}
+.xy-footer .ewm img {
+   width: 1.2rem;
+   height: 1.2rem;
+   position: absolute;
+   left: 50%;
+   top: -1.2rem;
+   -webkit-transform : translateX(-50%);
+   transform : translateX(-50%);
+   display: none;
+}
+.xy-footer .bot .ewm {
+   display: inline;
+}
+.xy-footer .ewm:hover {
+   cursor: pointer;
+   color: #1fbaec;
+}
+.xy-footer .ewm:hover img{
+   display: block;
+   z-index: 3;
+}
+
+
